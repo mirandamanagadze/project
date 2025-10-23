@@ -1,13 +1,58 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>khatchapuridze</title>
+    <title>Managadze Portfolio</title>
+    <link rel="stylesheet" href="/src/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Montserrat:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <div id="app"></div>
-    <script type="module" src="/src/main.ts"></script>
+    <header class="page-header">
+      <nav class="navigation">
+        <div class="nav-inner">
+          <div class="brand-section">
+            <span class="brand-title">Managadze</span>
+          </div>
+          <div class="nav-list">
+            <a href="#home" class="nav-item">Home</a>
+            <a href="#about" class="nav-item">About</a>
+            <a href="#projects" class="nav-item">Projects</a>
+            <a href="#contact" class="nav-item">Contact</a>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <section id="home" class="hero-asymmetrical">
+      <div class="asymmetrical-layout">
+        <div class="asymmetrical-left">
+          <div class="abstract-placeholder">
+            <div class="abstract-shape">
+              <img
+                src="https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80"
+                alt="Woman's portrait"
+                class="profile-img"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="asymmetrical-right">
+          <div class="asymmetrical-content">
+            <h1 class="asymmetrical-title">Hello, I'm Managadze</h1>
+            <p class="asymmetrical-description">
+              A passionate developer creating amazing web experiences
+            </p>
+            <div class="asymmetrical-actions">
+              <a href="#contact" class="asymmetrical-button">Get In Touch</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
   </body>
 </html>
