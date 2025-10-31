@@ -5,14 +5,17 @@
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Managadze Portfolio</title>
+
+    <!-- CSS -->
     <link rel="stylesheet" href="/src/style.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Montserrat:wght@400;500;600;700&display=swap"
       rel="stylesheet"
     />
-    <link src="./src/script.js" />
   </head>
+
   <body>
+    <!-- HEADER -->
     <header class="page-header">
       <nav class="navigation">
         <div class="nav-inner">
@@ -38,14 +41,15 @@
       </nav>
     </header>
 
+    <!-- HERO -->
     <section id="home" class="hero-asymmetrical">
       <div class="asymmetrical-layout">
         <div class="asymmetrical-left">
           <div class="abstract-placeholder">
             <div class="abstract-shape">
               <img
-                src="https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80"
-                alt="Woman's portrait"
+                src="https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=687&q=80"
+                alt="Portrait"
                 class="profile-img"
               />
             </div>
@@ -65,6 +69,7 @@
       </div>
     </section>
 
+    <!-- ABOUT -->
     <section id="about" class="about-asymmetrical">
       <div class="asymmetrical-about-layout">
         <div class="about-left">
@@ -94,6 +99,7 @@
       </div>
     </section>
 
+    <!-- PROJECTS -->
     <section id="projects" class="projects-asymmetrical">
       <div class="projects-header">
         <h2>My Projects</h2>
@@ -112,15 +118,8 @@
               <a href="#" class="cta-link secondary">View Source</a>
             </div>
           </div>
-          <div class="project-visual">
-            <div class="code-visual">
-              <div class="code-line"></div>
-              <div class="code-line"></div>
-              <div class="code-line"></div>
-              <div class="code-line"></div>
-            </div>
-          </div>
         </div>
+
         <div class="project-showcase reverse">
           <div class="project-content">
             <h3>AI-Powered Analytics</h3>
@@ -134,15 +133,8 @@
               <a href="#" class="cta-link secondary">View Source</a>
             </div>
           </div>
-          <div class="project-visual">
-            <div class="data-visual">
-              <div class="data-bar" style="height: 60%"></div>
-              <div class="data-bar" style="height: 80%"></div>
-              <div class="data-bar" style="height: 40%"></div>
-              <div class="data-bar" style="height: 90%"></div>
-            </div>
-          </div>
         </div>
+
         <div class="project-showcase">
           <div class="project-content">
             <h3>Modern Web Framework</h3>
@@ -156,16 +148,11 @@
               <a href="#" class="cta-link secondary">View Source</a>
             </div>
           </div>
-          <div class="project-visual">
-            <div class="framework-visual">
-              <div class="component-node"></div>
-              <div class="component-node"></div>
-              <div class="component-node"></div>
-            </div>
-          </div>
         </div>
       </div>
     </section>
+
+    <!-- CONTACT -->
     <section id="contact" class="contact-asymmetrical">
       <div class="contact-inner">
         <div class="contact-content">
@@ -206,36 +193,20 @@
             <button type="submit" class="contact-button">Send Message</button>
           </form>
         </div>
-
-        <div class="contact-visual">
-          <div class="contact-shape shape-1"></div>
-          <div class="contact-shape shape-2"></div>
-          <div class="contact-shape shape-3"></div>
-        </div>
       </div>
     </section>
 
+    <!-- FOOTER -->
     <footer class="page-footer">
       <div class="footer-inner">
         <div class="footer-brand">
           <span class="brand-title">Managadze</span>
           <p class="copyright-text">© 2024. All rights reserved.</p>
         </div>
-        <div class="social-links">
-          <a
-            href="https://linkedin.com"
-            target="_blank"
-            class="social-icon-link"
-            ><i class="fab fa-linkedin-in social-icon"></i
-          ></a>
-          <a href="https://github.com" target="_blank" class="social-icon-link"
-            ><i class="fab fa-github social-icon"></i
-          ></a>
-          <a href="https://twitter.com" target="_blank" class="social-icon-link"
-            ><i class="fab fa-twitter social-icon"></i
-          ></a>
-        </div>
       </div>
     </footer>
+
+    <!-- ✅ FIXED JS LINK -->
+    <script src="/src/script.js" defer></script>
   </body>
 </html>
